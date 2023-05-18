@@ -11,7 +11,7 @@ function FriendListItem({ avatar, name, isOnline }) {
   );
 }
 
-// Тут не описую проп тайпи, адже уже описав всі ці данні у файлі FriendList.js
+
 
 export default FriendListItem;
 

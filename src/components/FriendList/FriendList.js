@@ -17,8 +17,7 @@ export function FriendList({ friends }) {
   );
 }
 
-// Тут ключ я вказав на самому компоненті FriendListItem, спочатку вказував на лішці, були помилки в консолі
-// але глянув в компонентах, а там така структура що тегом обгорткою є сам компонент, це вірно?
+
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
